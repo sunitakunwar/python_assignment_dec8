@@ -3,13 +3,12 @@
  If the password is a match, print "password match" or else print "Wrong password"'''
 
 
-class Const():
-    def password():
-        return 1
+password="rock"
+def checkp(password):
+    ans=input("enter the password:")
+    if (ans==password):
+        print("password match")
+    else:
+        print("wrong password ")
 
-check=int(input("Enter the password: "))
-
-if (check==1):
-    print("password match")
-else:
-    print("wrong password")
+checkp(password)
